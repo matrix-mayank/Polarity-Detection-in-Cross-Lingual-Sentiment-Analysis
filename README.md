@@ -13,8 +13,8 @@ This repository examines how polarity classification is influenced when it is pe
 
 ## Results
 
-> **Across features**: Best accuracies of prediction are seen when unigrams are used as features, and decrease with bigrams and trigrams
-> **Across algorithms**: The highest overall accuracy of 74.19% was obtained by Logistic Regression on unigrams obtained from the machine-translated English corpus. Logistic Regression presents the best results with unigrams and bigrams but Naïve Bayes’ Algorithm serves as a slightly better classifier from Logistic Regression in case of trigrams for both the languages.
-> **Across languages**: While the accuracies obtained for models trained on English corpus are higher with unigrams, the accuracies obtained for models trained on French corpus are higher with bigrams and trigrams. 
+**Across features**: Best accuracies of prediction are seen when unigrams are used as features, and decrease with bigrams and trigrams
+**Across algorithms**: The highest overall accuracy of 74.19% was obtained by Logistic Regression on unigrams obtained from the machine-translated English corpus. Logistic Regression presents the best results with unigrams and bigrams but Naïve Bayes’ Algorithm serves as a slightly better classifier from Logistic Regression in case of trigrams for both the languages.
+**Across languages**: While the accuracies obtained for models trained on English corpus are higher with unigrams, the accuracies obtained for models trained on French corpus are higher with bigrams and trigrams. 
 
 Results from this analysis were published in the proceedings of the 2020 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO): **M. Sharma, "Polarity Detection in a Cross-Lingual Sentiment Analysis using spaCy," 2020 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO), Noida, India, 2020, pp. 490-496, doi: 10.1109/ICRITO48877.2020.9197829.**
